@@ -1,52 +1,50 @@
 {
-    "name": "chatbot",    
-    "env": {
-        "BOT_TOKEN": {
-            "description": "telegram bot token here",
-            "required": true
-        },        
-        "MONGO_URL": {
-            "description": "mongo db url here",
-            "required": true
-        },
-        "BOT_USERNAME": {
-            "description": "telegram bot username here without @",
-            "required": false
-        },
-        "OWNER_USERNAME": {
-            "description": "Owner id without ",
-            "required": false
-        },
-        "BOT_NAME": {
-            "description": "Simple Bot-name. Do not use Modified Text..",
-            "required": false
-        },
-        "UPDATE_CHNL": {
-            "description": "Your Updates Channel without @",
-            "required": false
-        },
-        "SUPPORT_GRP": {
-            "description": "Your Support Group without @",
-            "required": false
-        },
-        
-        "START_IMG": {
-            "description": "Start Image For Bot.",
-            "required": false
-        },
-        
-        "API_ID": {
-            "description": "telegram api id here",
-            "required": true
-        },
-        "API_HASH": {
-            "description": "telegram api hash here",
-            "required": true
-        }
+  "name": "chatbot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "telegram bot token here",
+      "7468224439:AAEGXiQeoK_iRjHwFFIu1In574UDV1sLGvs": true
     },
-    "addons": [
-        {
-            "plan": "heroku-postgresql"
-        }
-    ]
+    "MONGO_URL": {
+      "description": "mongo db url here",
+      "mongodb+srv://Suraj43:Suraj43@suraj.0bg0zuc.mongodb.net/?retryWrites=true&w=majority": true
+    },
+    "BOT_USERNAME": {
+      "description": "telegram bot username here without @",
+      "RiyaM1bot": false
+    },
+    "OWNER_USERNAME": {
+      "description": "Owner id without ",
+      "attitude_boy43": false
+    },
+    "BOT_NAME": {
+      "description": "Simple Bot-name. Do not use Modified Text..",
+      "RiyaM1bot": false
+    },
+    "UPDATE_CHNL": {
+      "description": "Your Updates Channel without @",
+      "quizbys": false
+    },
+    "SUPPORT_GRP": {
+      "description": "Your Support Group without @",
+      "quizbys2": false
+    },
+    "START_IMG": {
+      "description": "Start Image For Bot.",
+      "required": false
+    },
+    "API_ID": {
+      "description": "telegram api id here",
+      "28345873": true
+    },
+    "API_HASH": {
+      "description": "telegram api hash here",
+      "272ecc060f246a857c1adc6e46be2cf1": true
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
 }
